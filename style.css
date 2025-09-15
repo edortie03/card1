@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(275, 100%, 97%);
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.main {
+    background-color: hsl(0, 0%, 100%);
+    background: #fff;
+    border-radius: 12px;
+    padding: 2rem;
+    width: 350px;
+    box-shadow: 0 8px 20px rgba(167, 142, 142, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.faq {
+    display: inline-flex;
+}
+
+.faq img {
+    font-size: 5px;
+}
+
+.faq h1 {
+    font-size: 2rem;
+    margin-left: 10px;
+    color: hsl(256, 26%, 20%);
+}
+
+details {
+    border-bottom: 1px solid #eee;
+    padding: 1rem 0;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::after {
+    content: "+";
+    color: #8e05c2;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+details[open] summary::after {
+    content: "−";
+}
+
+details p {
+    margin: 0.5rem 0 0;
+    color: #555;
+    line-height: 1.4;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    color: hsl(83, 84%, 48%);
+    font-size: 0.9rem;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}
+
+footer a {
+    color: #261d2b;
+    text-decoration: none;
+    font-weight: 600;
+}
