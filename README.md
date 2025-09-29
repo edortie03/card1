@@ -10,18 +10,11 @@ View the optimal layout depending on their device’s screen size
 
 See hover and focus states for interactive elements (e.g., the “Add to Cart” button)
 
-Screenshot
-
-
-(Add your own screenshot here)
-
 🔗 Links
 
-Solution URL: Add solution link here
+![Solution](https://github.com/edortie03/card1)
 
-Live Site URL: Add live site link here
-
-💻 My Process
+My Process
 Built With
 
 Semantic HTML5 markup
@@ -32,7 +25,6 @@ Flexbox
 
 CSS Grid
 
-Responsive design techniques
 
 What I Learned
 
